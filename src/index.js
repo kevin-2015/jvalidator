@@ -1,4 +1,4 @@
-var v = require('./Validator.js');
+﻿var v = require('./Validator.js');
 
 var validFunc = {
     
@@ -10,6 +10,8 @@ var validFunc = {
      */
     ID : function( num ) {  
 
+
+        var test = 11;
         num = num.toUpperCase();  
         
         //身份证号码为15位或者18位，15位时全为数字，18位前17位为数字，最后一位是校验位，可能为数字或字符X。   
